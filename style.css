@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+    background: #000;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+/* #box{
+    height: 200px;
+    width: 200px;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background: rebeccapurple;
+}
+button{
+    padding: 10px 20px;
+}
+
+@keyframes rotate {
+    from{
+        rotate: 0;
+    } to{
+        rotate: 360deg;
+    }
+} */
+
+#bulb{
+    height: 200px;
+    width: 200px;
+    border:  1px solid white;
+    border-radius: 50%;
+}
+button{
+    padding: 10px 20px;
+}
